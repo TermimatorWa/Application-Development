@@ -1,0 +1,58 @@
+.root {
+    -fx-font-size: 13px;
+}
+
+.section-heading {
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 6 0 0 0;
+}
+
+.note {
+    -fx-text-fill: #555555;
+    -fx-font-size: 12px;
+}
+
+.verdict {
+    -fx-padding: 8;
+    -fx-background-radius: 4;
+    -fx-background-color: #f2f2f2;
+}
+
+.verdict.good {
+    -fx-background-color: #e3f4e5;
+}
+
+.verdict.bad {
+    -fx-background-color: #fbe9e7;
+}
+
+/* Fixed colours so the species look the same in every chart: deer, cattle, horses, total. */
+.default-color0.chart-series-line { -fx-stroke: #c0661f; }
+.default-color1.chart-series-line { -fx-stroke: #3b3b3b; }
+.default-color2.chart-series-line { -fx-stroke: #2f7ec1; }
+.default-color3.chart-series-line { -fx-stroke: #2e9e5b; }
+.default-color4.chart-series-line { -fx-stroke: #8a8a8a; }
+.default-color5.chart-series-line { -fx-stroke: #8e44ad; }
+.default-color6.chart-series-line { -fx-stroke: #c0392b; }
+.default-color7.chart-series-line { -fx-stroke: #16a085; }
+.default-color0.chart-line-symbol { -fx-background-color: #c0661f, white; }
+.default-color1.chart-line-symbol { -fx-background-color: #3b3b3b, white; }
+.default-color2.chart-line-symbol { -fx-background-color: #2f7ec1, white; }
+.default-color3.chart-line-symbol { -fx-background-color: #2e9e5b, white; }
+.default-color4.chart-line-symbol { -fx-background-color: #8a8a8a, white; }
+.default-color5.chart-line-symbol { -fx-background-color: #8e44ad, white; }
+.default-color6.chart-line-symbol { -fx-background-color: #c0392b, white; }
+.default-color7.chart-line-symbol { -fx-background-color: #16a085, white; }
+
+.chart-series-line {
+    -fx-stroke-width: 2px;
+}
+
+.reference-line.chart-series-line {
+    -fx-stroke-dash-array: 8 6;
+}
+
+.observed-series.chart-series-line {
+    -fx-stroke: transparent;
+}
